@@ -1,0 +1,65 @@
+# 孙重勇 — 三维数字艺术作品集 · V2
+
+完整本地网站，所有图片、视频、简历和证书均已包含，无需登录或联网即可浏览。
+
+## 打开网站
+
+双击「启动预览.cmd」，将自动启动本地预览并打开浏览器。
+
+也可以直接用 Chrome、Edge 或 Tabbit 打开 `dist/index.html`。支持 WebGL 的浏览器会显示实时三维雕塑；不支持时显示作品封面。预览地址：http://127.0.0.1:4173/ 。
+
+## 这次重新制作的内容
+
+- 珍珠白、墨黑和电光橙的整体视觉；全新首页、作品展陈、影像放映区、摄影、个人介绍与联系页。
+- 实时三维金属雕塑，支持鼠标或触屏拖动旋转，以及银色、橙色、蓝色材质切换。
+- 13 个项目档案、134 张作品图、5 部完整影片、8 份合作获奖证书。
+- 《十字路口》独立为一张摄影作品；《京华万象》按此次提供的顺序展示七张摄影。
+- 新增《跃动清江》，时长约 2 分 52 秒，并关联对应全国总决赛一等奖证书。
+- 个人证件照保留原本彩色。
+- 保留分类浏览、完整画廊、大图查看、方向键切图、视频播放、简历下载、证书查看和邮箱复制。
+- 手机与电脑适配，提供动态开关，并尊重系统的减少动态效果设置。
+
+## 本地内容与源码
+
+`dist/` 是可以独立使用的完整网站。所有资源路径均为相对路径。
+
+- `dist/index.html`：页面结构和个人介绍
+- `dist/style.css`：完整视觉样式和响应式布局
+- `dist/data.js`：项目、影片与证书数据，后续增加作品时直接编辑这里
+- `dist/app.js`：画廊、筛选、放映室与交互
+- `src/sculpture.js`：三维场景源码
+- `dist/sculpture.js`：已打包的三维代码，浏览时不需要安装依赖
+- `dist/assets/`：网页优化后的作品图片与影片
+- `dist/downloads/`：原始简历和 PDF 证书
+
+如需修改三维场景，安装 Node.js 后在此目录执行 `npm ci`、`npm run build`。`npm start` 可启动预览；`npm run check` 可检查资源完整性。
+
+网站源文件使用 Three.js（MIT 许可），许可证保存在 `THIRD-PARTY-NOTICES.txt`。
+
+## 素材与版本说明
+
+原始资料没有修改。摄影分组与《跃动清江》名称按你本次说明修正。证书中的合作作者和指导教师均保留。简历的入学年份原文为“2323.09”，网站省略该起始年份，保留预计毕业年份 2027。
+
+## GitHub Pages 发布
+
+发布仓库：`https://github.com/rosineli752-eng/sun-chongyong-portfolio`。
+
+正式访问地址：`https://rosineli752-eng.github.io/sun-chongyong-portfolio/`。手机与电脑使用同一个地址。
+
+`main` 分支保存完整源码，`gh-pages` 分支保存 `dist/` 中的独立网站。Pages 从 `gh-pages` 分支根目录发布。`.nojekyll` 保证文件按原样提供。
+
+更新后，在仓库目录运行：
+
+```powershell
+npm run check
+git add .
+git commit -m "Update portfolio"
+git push origin main
+git subtree push --prefix dist origin gh-pages
+```
+
+只有修改三维源码时才需要先执行 `npm ci` 和 `npm run build`。发布后等待 GitHub Pages 构建完成，原网址与二维码保持不变。关闭个人电脑不影响线上访问。
+
+GitHub Free 支持公开仓库的 Pages 托管。网站的持续可用性取决于账号、仓库、平台规则及免费配额；无需购买服务器或域名。作品图片、影片、肖像和证书的权利仍属于相应作者及权利人。
+
+本地 V2 压缩包和原始资料仍保留在原位置。

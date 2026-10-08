@@ -1,0 +1,8 @@
+{
+  "name": "sun-chongyong-spatial-portfolio",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": { "build": "esbuild src/sculpture.js --bundle --minify --format=iife --outfile=dist/sculpture.js", "start": "node server.mjs", "check": "node validate.mjs" },
+  "dependencies": { "three": "0.180.0" },
+  "devDependencies": { "esbuild": "0.25.10" }
+}
