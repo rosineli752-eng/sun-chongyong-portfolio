@@ -8,7 +8,7 @@ const projectDialog=document.querySelector('#project-dialog'),filmDialog=documen
 let currentProject=null,imageIndex=0,returnHash='#work',filmReturnHash='#motion';
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const imageManifest=window.IMAGE_MANIFEST||{},videoPreviews=window.VIDEO_PREVIEWS||{};
-function imageTag(src,alt,{sizes='(max-width:700px) 90vw,46vw',eager=false,deferred=false}={}){
+function imageTag(src,alt,{sizes='(max-width:700px) 90vw,46vw',eager=false,deferred=true}={}){
  const m=imageManifest[src],small=m?.preview||src;
  const set=m?(navigator.connection?.saveData?`${small} 480w`:m.srcset):'';
  const dim=m?` width="${m.width}" height="${m.height}"`:'';
@@ -18,6 +18,15 @@ function imageTag(src,alt,{sizes='(max-width:700px) 90vw,46vw',eager=false,defer
 document.addEventListener('load',e=>{if(e.target.tagName==='IMG')e.target.closest('.gallery-item')?.removeAttribute('aria-busy');},true);
 document.addEventListener('error',e=>{const im=e.target;if(im.tagName==='IMG'&&im.dataset.original&&!im.dataset.originalFallback){im.dataset.originalFallback='true';im.removeAttribute('srcset');im.src=im.dataset.original;}},true);
 let galleryObserver;
+let portfolioImageObserver;
+function observePortfolioImages(){
+ const pending=document.querySelectorAll('main img[data-src]');
+ const load=im=>{if(im.dataset.srcset){im.srcset=im.dataset.srcset;delete im.dataset.srcset;}im.src=im.dataset.src;delete im.dataset.src;};
+ if(!('IntersectionObserver' in window)){pending.forEach(load);return;}
+ portfolioImageObserver?.disconnect();
+ if(!portfolioImageObserver)portfolioImageObserver=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){load(e.target);portfolioImageObserver.unobserve(e.target);}}),{rootMargin:'180px 0px'});
+ pending.forEach(im=>portfolioImageObserver.observe(im));
+}
 function observeGallery(){
  galleryObserver?.disconnect();
  const pending=projectDialog.querySelectorAll('img[data-src]');
@@ -27,7 +36,7 @@ function observeGallery(){
  pending.forEach(im=>galleryObserver.observe(im));
 }
 function projectCard(p){
- let visual=imageTag(p.cover,p.title);
+ let visual=imageTag(p.category==='photo'?p.images[0].src:p.cover,p.title);
  if(p.id==='qingjiang')visual=`<div class="feature-word">QINGJIANG<br>SPIRIT<small>把山水，变成性格。<br>清江守望者 / 文旅 IP</small></div>${visual}`;
  if(['hbn','sanfu','heritage'].includes(p.id))visual=`${imageTag(p.images[0].src,p.images[0].alt,{sizes:'(max-width:700px) 38vw,20vw'})}${imageTag(p.images[1].src,p.images[1].alt,{sizes:'(max-width:700px) 38vw,20vw'})}`;
  return `<a class="project-card ${p.id==='qingjiang'?'feature ':''}${p.id} reveal" href="#project-${p.id}"><div class="project-image ${['hbn','sanfu','heritage'].includes(p.id)?'poster-pair':''}" style="background-color:${p.color}">${visual}${p.award?`<span class="project-award">${esc(p.award.split(' · ')[0])}</span>`:''}<span class="view-label">查看项目</span></div><div class="project-meta"><div><span class="project-number">${p.number}</span><h3>${p.title}</h3><p>${p.tags}</p></div><span class="project-year">${p.category==='photo'?'摄影作品':p.kind==='合作竞赛作品'?'合作作品':'设计实践'}</span></div></a>`;
@@ -38,12 +47,13 @@ function renderProjects(filter='all'){
  const selected=filter==='all'?projects.slice(0,6):projects.filter(p=>p.category===filter);
  document.querySelector('#project-grid').innerHTML=selected.map(projectCard).join('');
  document.querySelector('#archive').hidden=filter!=='all';
- document.querySelector('#archive-list').innerHTML=projects.slice(6).map(p=>`<a class="archive-row" href="#project-${p.id}"><span>${p.number}</span>${imageTag(p.cover,p.title,{sizes:'100px'})}<h3>${p.title}</h3><p>${p.tags}</p><span class="archive-open" aria-hidden="true">+</span></a>`).join('');
- document.querySelector('#filter-status').textContent=(filter==='all'?projects.length:selected.length)+' 个项目';observeReveals();
+ document.querySelector('#archive-list').innerHTML=projects.slice(6).map(p=>`<a class="archive-row" data-category="${p.category}" href="#project-${p.id}"><span>${p.number}</span>${imageTag(p.category==='photo'?p.images[0].src:p.cover,p.title,{sizes:'100px'})}<h3>${p.title}</h3><p>${p.tags}</p><span class="archive-open" aria-hidden="true">+</span></a>`).join('');
+ document.querySelector('#filter-status').textContent=(filter==='all'?projects.length:selected.length)+' 个项目';observeReveals();observePortfolioImages();
 }
 document.querySelectorAll('[data-filter]').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('[data-filter]').forEach(b=>{b.classList.toggle('active',b===btn);b.setAttribute('aria-pressed',String(b===btn));});renderProjects(btn.dataset.filter);}));renderProjects();
 document.querySelector('#film-count').textContent=String(films.length).padStart(2,'0');
 document.querySelector('#film-grid').innerHTML=films.map(f=>`<button class="film-card" data-film="${f.id}" aria-label="播放影片：${f.title}"><div class="film-picture">${imageTag(f.poster,f.title+'影片画面')}<span class="play-disc" aria-hidden="true">PLAY</span><span class="film-duration">${f.duration}</span></div><div class="film-description"><div><h3>${f.title}</h3><p>${f.english}</p></div>${f.award?`<span>${f.award}</span>`:''}</div></button>`).join('');
+observePortfolioImages();
 const awardOrder=[2,5,1,3,4,0,7,6];document.querySelector('#award-list').innerHTML=awardOrder.map(i=>{const a=awards[i];return `<div class="award-row"><div><h4>${a.title}</h4><p>${a.date} / ${a.category}<br>${a.authors}</p></div><a href="${a.pdf}" target="_blank" rel="noopener" aria-label="查看${a.title}${a.round}${a.award}证书"><b>${a.round.includes('全国')?'全国总决赛':'黑龙江赛区'} · ${a.award}</b>查看证书</a></div>`;}).join('');
 function galleryMarkup(items,start=0){return items.map((item,i)=>`<button class="gallery-item" data-image="${i+start}" aria-busy="true" aria-label="放大${esc(item.alt)}">${imageTag(item.src,item.alt,{sizes:i+start===0?'90vw':'(max-width:700px) 90vw,43vw',eager:i+start===0,deferred:i+start!==0})}<span class="image-index">${String(i+start+1).padStart(2,'0')} / ${String(currentProject.images.length).padStart(2,'0')}</span></button>`).join('');}
 function openProject(id){const p=projects.find(p=>p.id===id);if(!p)return;if(currentProject?.id===id&&projectDialog.open)return;currentProject=p;
@@ -94,14 +104,14 @@ function openFilm(id){const f=films.find(f=>f.id===id);if(!f)return;
  document.title=f.title+' · 孙重勇作品集';
 }
 function closeFilm(){++filmGeneration;const v=filmDialog.querySelector('video');if(v){v.pause();v.removeAttribute('src');v.querySelector('source')?.remove();v.load();}if(filmDialog.open)filmDialog.close();history.replaceState(null,'',filmReturnHash);document.title=currentProject?currentProject.title+' · 孙重勇作品集':'孙重勇 — 视觉设计与数字艺术';}
-function route(){const h=location.hash;if(h.startsWith('#project-')){if(filmDialog.open)closeFilm();openProject(h.slice(9));}else if(h.startsWith('#film-'))openFilm(h.slice(6));else{if(filmDialog.open)closeFilm();if(projectDialog.open||lightbox.open)closeProject();history.replaceState(null,'',h||location.pathname+location.search);document.title='孙重勇 — 视觉设计与数字艺术';}}
+function route(){const h=location.hash;if(h.startsWith('#project-')){if(filmDialog.open){closeFilm();history.replaceState(null,'',h);}openProject(h.slice(9));}else if(h.startsWith('#film-'))openFilm(h.slice(6));else{if(filmDialog.open)closeFilm();if(projectDialog.open||lightbox.open)closeProject();history.replaceState(null,'',h||location.pathname+location.search);document.title='孙重勇 — 视觉设计与数字艺术';}}
 document.addEventListener('click',e=>{const a=e.target.closest('a[href^="#project-"]');if(a&&!projectDialog.open)returnHash=location.hash||'#work';const f=e.target.closest('[data-film]');if(f){filmReturnHash=location.hash||'#motion';location.hash='film-'+f.dataset.film;}const image=e.target.closest('[data-image]');if(image&&currentProject){imageIndex=Number(image.dataset.image);setLightbox();lightbox.showModal();}const close=e.target.closest('[data-close]');if(close){if(close.dataset.close==='project')closeProject();if(close.dataset.close==='film')closeFilm();if(close.dataset.close==='lightbox')lightbox.close();}});
 projectDialog.addEventListener('cancel',e=>{e.preventDefault();closeProject();});filmDialog.addEventListener('cancel',e=>{e.preventDefault();closeFilm();});
 window.addEventListener('hashchange',route);route();
 document.querySelector('#copy-email').addEventListener('click',async()=>{const email='RosineLi752@gmail.com',status=document.querySelector('#copy-status');try{await navigator.clipboard.writeText(email);status.textContent='邮箱已复制。';}catch{const field=document.createElement('textarea');field.value=email;field.style.position='fixed';field.style.opacity='0';document.body.append(field);field.select();const copied=document.execCommand('copy');field.remove();status.textContent=copied?'邮箱已复制。':'请选中邮箱地址复制。';}});
 motionButton.addEventListener('click',()=>{if(motionOff)document.querySelectorAll('.reveal').forEach(el=>el.classList.add('visible'));});
 if('serviceWorker' in navigator&&/^https?:$/.test(location.protocol)){
- const cacheImages=()=>navigator.serviceWorker.register('sw.js').catch(()=>{});
+ const cacheImages=()=>navigator.serviceWorker.register('sw.js',{updateViaCache:'none'}).catch(()=>{});
  if(document.readyState==='complete')cacheImages();else window.addEventListener('load',cacheImages,{once:true});
 }
 
