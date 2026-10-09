@@ -1,0 +1,273 @@
+{
+  "version": 1,
+  "encoding": {
+    "width": 854,
+    "height": 480,
+    "maxFps": 30,
+    "videoCodec": "h264",
+    "crf": 27,
+    "maxVideoBitrateKbps": 480,
+    "perSourceVideoBitrateCapsKbps": {
+      "video-01-720p-revised.mp4": 280,
+      "video-02-720p.mp4": 380
+    },
+    "audioCodec": "aac",
+    "audioBitrateKbps": 64,
+    "keyframeIntervalSeconds": 2,
+    "faststart": true
+  },
+  "totals": {
+    "originalBytes": 93361061,
+    "previewBytes": 50557885,
+    "reductionPercent": 45.85
+  },
+  "sources": {
+    "assets/videos/video-01-720p-revised.mp4": "assets/videos/video-01-480p.mp4",
+    "assets/videos/video-02-720p.mp4": "assets/videos/video-02-480p.mp4",
+    "assets/videos/video-03-720p.mp4": "assets/videos/video-03-480p.mp4",
+    "assets/videos/video-04-720p.mp4": "assets/videos/video-04-480p.mp4",
+    "assets/videos/yuedong-qingjiang.mp4": "assets/videos/yuedong-qingjiang-480p.mp4"
+  },
+  "videos": [
+    {
+      "originalSrc": "assets/videos/video-01-720p-revised.mp4",
+      "previewSrc": "assets/videos/video-01-480p.mp4",
+      "originalBytes": 17392810,
+      "previewBytes": 12986444,
+      "reductionPercent": 25.33,
+      "maxVideoBitrateKbps": 280,
+      "original": {
+        "durationSeconds": 300.04,
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "videoCodec": "h264",
+        "audioCodec": "aac",
+        "hasAudio": true,
+        "audioSampleRate": 44100,
+        "audioChannels": "stereo"
+      },
+      "preview": {
+        "durationSeconds": 300.04,
+        "width": 854,
+        "height": 480,
+        "fps": 24.0,
+        "videoCodec": "h264",
+        "audioCodec": "aac",
+        "hasAudio": true,
+        "audioSampleRate": 44100,
+        "audioChannels": "stereo",
+        "moovBeforeMdat": true,
+        "moovOffset": 32,
+        "mdatOffset": 227622,
+        "tracks": [
+          {
+            "type": "vide",
+            "durationSeconds": 300.0416666666667
+          },
+          {
+            "type": "soun",
+            "durationSeconds": 300.0250340136054
+          }
+        ],
+        "trackDurationDeltasSeconds": {
+          "vide": 0.0,
+          "soun": 0.0
+        },
+        "decodeVerified": true
+      }
+    },
+    {
+      "originalSrc": "assets/videos/video-02-720p.mp4",
+      "previewSrc": "assets/videos/video-02-480p.mp4",
+      "originalBytes": 18293901,
+      "previewBytes": 11971142,
+      "reductionPercent": 34.56,
+      "maxVideoBitrateKbps": 380,
+      "original": {
+        "durationSeconds": 212.88,
+        "width": 960,
+        "height": 544,
+        "fps": 26.0,
+        "videoCodec": "h264",
+        "audioCodec": "aac",
+        "hasAudio": true,
+        "audioSampleRate": 44100,
+        "audioChannels": "stereo"
+      },
+      "preview": {
+        "durationSeconds": 212.88,
+        "width": 854,
+        "height": 480,
+        "fps": 26.0,
+        "videoCodec": "h264",
+        "audioCodec": "aac",
+        "hasAudio": true,
+        "audioSampleRate": 44100,
+        "audioChannels": "stereo",
+        "moovBeforeMdat": true,
+        "moovOffset": 32,
+        "mdatOffset": 188786,
+        "tracks": [
+          {
+            "type": "vide",
+            "durationSeconds": 212.8846153846154
+          },
+          {
+            "type": "soun",
+            "durationSeconds": 212.85773242630387
+          }
+        ],
+        "trackDurationDeltasSeconds": {
+          "vide": 0.0,
+          "soun": 0.0
+        },
+        "decodeVerified": true
+      }
+    },
+    {
+      "originalSrc": "assets/videos/video-03-720p.mp4",
+      "previewSrc": "assets/videos/video-03-480p.mp4",
+      "originalBytes": 18636608,
+      "previewBytes": 8087911,
+      "reductionPercent": 56.6,
+      "maxVideoBitrateKbps": 480,
+      "original": {
+        "durationSeconds": 116.53,
+        "width": 1280,
+        "height": 720,
+        "fps": 30.0,
+        "videoCodec": "h264",
+        "audioCodec": "aac",
+        "hasAudio": true,
+        "audioSampleRate": 44100,
+        "audioChannels": "stereo"
+      },
+      "preview": {
+        "durationSeconds": 116.53,
+        "width": 854,
+        "height": 480,
+        "fps": 30.0,
+        "videoCodec": "h264",
+        "audioCodec": "aac",
+        "hasAudio": true,
+        "audioSampleRate": 44100,
+        "audioChannels": "stereo",
+        "moovBeforeMdat": true,
+        "moovOffset": 32,
+        "mdatOffset": 126786,
+        "tracks": [
+          {
+            "type": "vide",
+            "durationSeconds": 116.53333333333333
+          },
+          {
+            "type": "soun",
+            "durationSeconds": 116.51795918367347
+          }
+        ],
+        "trackDurationDeltasSeconds": {
+          "vide": 0.0,
+          "soun": 0.0
+        },
+        "decodeVerified": true
+      }
+    },
+    {
+      "originalSrc": "assets/videos/video-04-720p.mp4",
+      "previewSrc": "assets/videos/video-04-480p.mp4",
+      "originalBytes": 16432170,
+      "previewBytes": 5873519,
+      "reductionPercent": 64.26,
+      "maxVideoBitrateKbps": 480,
+      "original": {
+        "durationSeconds": 90.0,
+        "width": 1280,
+        "height": 720,
+        "fps": 60.0,
+        "videoCodec": "h264",
+        "audioCodec": "aac",
+        "hasAudio": true,
+        "audioSampleRate": 44100,
+        "audioChannels": "stereo"
+      },
+      "preview": {
+        "durationSeconds": 90.0,
+        "width": 854,
+        "height": 480,
+        "fps": 30.0,
+        "videoCodec": "h264",
+        "audioCodec": "aac",
+        "hasAudio": true,
+        "audioSampleRate": 44100,
+        "audioChannels": "stereo",
+        "moovBeforeMdat": true,
+        "moovOffset": 32,
+        "mdatOffset": 98446,
+        "tracks": [
+          {
+            "type": "vide",
+            "durationSeconds": 89.96666666666667
+          },
+          {
+            "type": "soun",
+            "durationSeconds": 90.02394557823129
+          }
+        ],
+        "trackDurationDeltasSeconds": {
+          "vide": -0.016667,
+          "soun": 0.0
+        },
+        "decodeVerified": true
+      }
+    },
+    {
+      "originalSrc": "assets/videos/yuedong-qingjiang.mp4",
+      "previewSrc": "assets/videos/yuedong-qingjiang-480p.mp4",
+      "originalBytes": 22605572,
+      "previewBytes": 11638869,
+      "reductionPercent": 48.51,
+      "maxVideoBitrateKbps": 480,
+      "original": {
+        "durationSeconds": 171.67000000000002,
+        "width": 1280,
+        "height": 720,
+        "fps": 30.0,
+        "videoCodec": "h264",
+        "audioCodec": "aac",
+        "hasAudio": true,
+        "audioSampleRate": 44100,
+        "audioChannels": "stereo"
+      },
+      "preview": {
+        "durationSeconds": 171.67000000000002,
+        "width": 854,
+        "height": 480,
+        "fps": 30.0,
+        "videoCodec": "h264",
+        "audioCodec": "aac",
+        "hasAudio": true,
+        "audioSampleRate": 44100,
+        "audioChannels": "stereo",
+        "moovBeforeMdat": true,
+        "moovOffset": 32,
+        "mdatOffset": 194583,
+        "tracks": [
+          {
+            "type": "vide",
+            "durationSeconds": 171.66666666666666
+          },
+          {
+            "type": "soun",
+            "durationSeconds": 171.68868480725624
+          }
+        ],
+        "trackDurationDeltasSeconds": {
+          "vide": 0.0,
+          "soun": 0.0
+        },
+        "decodeVerified": true
+      }
+    }
+  ]
+}
