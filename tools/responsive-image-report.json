@@ -1,0 +1,3162 @@
+{
+  "summary": {
+    "imageCount": 148,
+    "variantCount": 296,
+    "originalBytes": 38814564,
+    "preview480Bytes": 4560672,
+    "browse960Bytes": 12771490,
+    "browse960ReductionPercent": 67.1,
+    "over180KiB": [
+      {
+        "ref": "assets/huolu/huolu-24-full.webp",
+        "src": "assets/responsive/huolu/huolu-24-full-960.webp",
+        "width": 960,
+        "height": 1357,
+        "bytes": 213508,
+        "quality": 72
+      },
+      {
+        "ref": "assets/huolu/huolu-30-full.webp",
+        "src": "assets/responsive/huolu/huolu-30-full-960.webp",
+        "width": 960,
+        "height": 1357,
+        "bytes": 219972,
+        "quality": 72
+      },
+      {
+        "ref": "assets/nice/nice-01-full.webp",
+        "src": "assets/responsive/nice/nice-01-full-960.webp",
+        "width": 960,
+        "height": 1357,
+        "bytes": 211010,
+        "quality": 72
+      },
+      {
+        "ref": "assets/nice/nice-02-full.webp",
+        "src": "assets/responsive/nice/nice-02-full-960.webp",
+        "width": 960,
+        "height": 1357,
+        "bytes": 201624,
+        "quality": 72
+      },
+      {
+        "ref": "assets/nice/nice-03-full.webp",
+        "src": "assets/responsive/nice/nice-03-full-960.webp",
+        "width": 960,
+        "height": 1357,
+        "bytes": 192468,
+        "quality": 72
+      }
+    ]
+  },
+  "images": {
+    "assets/blueberry/blueberry-01-full.webp": {
+      "originalBytes": 488252,
+      "width": 2000,
+      "height": 2828,
+      "variants": [
+        {
+          "src": "assets/responsive/blueberry/blueberry-01-full-480.webp",
+          "width": 480,
+          "height": 679,
+          "bytes": 42660,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/blueberry/blueberry-01-full-960.webp",
+          "width": 960,
+          "height": 1357,
+          "bytes": 108098,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/blueberry/blueberry-02-full.webp": {
+      "originalBytes": 611298,
+      "width": 2000,
+      "height": 2828,
+      "variants": [
+        {
+          "src": "assets/responsive/blueberry/blueberry-02-full-480.webp",
+          "width": 480,
+          "height": 679,
+          "bytes": 57478,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/blueberry/blueberry-02-full-960.webp",
+          "width": 960,
+          "height": 1357,
+          "bytes": 147672,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/blueberry/blueberry-03-full.webp": {
+      "originalBytes": 574038,
+      "width": 2000,
+      "height": 2828,
+      "variants": [
+        {
+          "src": "assets/responsive/blueberry/blueberry-03-full-480.webp",
+          "width": 480,
+          "height": 679,
+          "bytes": 51672,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/blueberry/blueberry-03-full-960.webp",
+          "width": 960,
+          "height": 1357,
+          "bytes": 126736,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/blueberry/blueberry-04-full.webp": {
+      "originalBytes": 633368,
+      "width": 2000,
+      "height": 2828,
+      "variants": [
+        {
+          "src": "assets/responsive/blueberry/blueberry-04-full-480.webp",
+          "width": 480,
+          "height": 679,
+          "bytes": 56178,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/blueberry/blueberry-04-full-960.webp",
+          "width": 960,
+          "height": 1357,
+          "bytes": 145526,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/blueberry/blueberry-hero-cover.webp": {
+      "originalBytes": 110934,
+      "width": 1200,
+      "height": 900,
+      "variants": [
+        {
+          "src": "assets/responsive/blueberry/blueberry-hero-cover-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 21470,
+          "quality": 76
+        },
+        {
+          "src": "assets/responsive/blueberry/blueberry-hero-cover-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 46350,
+          "quality": 76
+        }
+      ]
+    },
+    "assets/canva/canva-01-cover.webp": {
+      "originalBytes": 150140,
+      "width": 1200,
+      "height": 900,
+      "variants": [
+        {
+          "src": "assets/responsive/canva/canva-01-cover-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 30148,
+          "quality": 76
+        },
+        {
+          "src": "assets/responsive/canva/canva-01-cover-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 69842,
+          "quality": 76
+        }
+      ]
+    },
+    "assets/canva/canva-01-full.webp": {
+      "originalBytes": 263858,
+      "width": 1280,
+      "height": 1812,
+      "variants": [
+        {
+          "src": "assets/responsive/canva/canva-01-full-480.webp",
+          "width": 480,
+          "height": 680,
+          "bytes": 48120,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/canva/canva-01-full-960.webp",
+          "width": 960,
+          "height": 1359,
+          "bytes": 115420,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/canva/canva-02-full.webp": {
+      "originalBytes": 284242,
+      "width": 1280,
+      "height": 1812,
+      "variants": [
+        {
+          "src": "assets/responsive/canva/canva-02-full-480.webp",
+          "width": 480,
+          "height": 680,
+          "bytes": 54514,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/canva/canva-02-full-960.webp",
+          "width": 960,
+          "height": 1359,
+          "bytes": 127752,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/canva/canva-03-full.webp": {
+      "originalBytes": 330964,
+      "width": 1280,
+      "height": 1812,
+      "variants": [
+        {
+          "src": "assets/responsive/canva/canva-03-full-480.webp",
+          "width": 480,
+          "height": 680,
+          "bytes": 59406,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/canva/canva-03-full-960.webp",
+          "width": 960,
+          "height": 1359,
+          "bytes": 145230,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/craftposters/craftposters-01-full.webp": {
+      "originalBytes": 302642,
+      "width": 1055,
+      "height": 1491,
+      "variants": [
+        {
+          "src": "assets/responsive/craftposters/craftposters-01-full-480.webp",
+          "width": 480,
+          "height": 678,
+          "bytes": 41112,
+          "quality": 76
+        },
+        {
+          "src": "assets/responsive/craftposters/craftposters-01-full-960.webp",
+          "width": 960,
+          "height": 1357,
+          "bytes": 118176,
+          "quality": 76
+        }
+      ]
+    },
+    "assets/craftposters/craftposters-02-full.webp": {
+      "originalBytes": 362898,
+      "width": 1054,
+      "height": 1492,
+      "variants": [
+        {
+          "src": "assets/responsive/craftposters/craftposters-02-full-480.webp",
+          "width": 480,
+          "height": 679,
+          "bytes": 46340,
+          "quality": 76
+        },
+        {
+          "src": "assets/responsive/craftposters/craftposters-02-full-960.webp",
+          "width": 960,
+          "height": 1359,
+          "bytes": 142928,
+          "quality": 76
+        }
+      ]
+    },
+    "assets/craftposters/craftposters-03-full.webp": {
+      "originalBytes": 478998,
+      "width": 1055,
+      "height": 1491,
+      "variants": [
+        {
+          "src": "assets/responsive/craftposters/craftposters-03-full-480.webp",
+          "width": 480,
+          "height": 678,
+          "bytes": 69902,
+          "quality": 76
+        },
+        {
+          "src": "assets/responsive/craftposters/craftposters-03-full-960.webp",
+          "width": 960,
+          "height": 1357,
+          "bytes": 183402,
+          "quality": 72
+        }
+      ]
+    },
+    "assets/hbn/hbn-01-full.webp": {
+      "originalBytes": 342566,
+      "width": 1054,
+      "height": 1492,
+      "variants": [
+        {
+          "src": "assets/responsive/hbn/hbn-01-full-480.webp",
+          "width": 480,
+          "height": 679,
+          "bytes": 50282,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/hbn/hbn-01-full-960.webp",
+          "width": 960,
+          "height": 1359,
+          "bytes": 149436,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/hbn/hbn-02-full.webp": {
+      "originalBytes": 258852,
+      "width": 1054,
+      "height": 1492,
+      "variants": [
+        {
+          "src": "assets/responsive/hbn/hbn-02-full-480.webp",
+          "width": 480,
+          "height": 679,
+          "bytes": 40278,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/hbn/hbn-02-full-960.webp",
+          "width": 960,
+          "height": 1359,
+          "bytes": 117660,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/hbn/hbn-03-cover.webp": {
+      "originalBytes": 165102,
+      "width": 1200,
+      "height": 900,
+      "variants": [
+        {
+          "src": "assets/responsive/hbn/hbn-03-cover-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 23244,
+          "quality": 76
+        },
+        {
+          "src": "assets/responsive/hbn/hbn-03-cover-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 68214,
+          "quality": 76
+        }
+      ]
+    },
+    "assets/hbn/hbn-03-full.webp": {
+      "originalBytes": 348064,
+      "width": 1054,
+      "height": 1492,
+      "variants": [
+        {
+          "src": "assets/responsive/hbn/hbn-03-full-480.webp",
+          "width": 480,
+          "height": 679,
+          "bytes": 50274,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/hbn/hbn-03-full-960.webp",
+          "width": 960,
+          "height": 1359,
+          "bytes": 148994,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/heritage/heritage-01-full.webp": {
+      "originalBytes": 170660,
+      "width": 1054,
+      "height": 1492,
+      "variants": [
+        {
+          "src": "assets/responsive/heritage/heritage-01-full-480.webp",
+          "width": 480,
+          "height": 679,
+          "bytes": 34194,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/heritage/heritage-01-full-960.webp",
+          "width": 960,
+          "height": 1359,
+          "bytes": 90814,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/heritage/heritage-02-full.webp": {
+      "originalBytes": 197876,
+      "width": 1054,
+      "height": 1492,
+      "variants": [
+        {
+          "src": "assets/responsive/heritage/heritage-02-full-480.webp",
+          "width": 480,
+          "height": 679,
+          "bytes": 34974,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/heritage/heritage-02-full-960.webp",
+          "width": 960,
+          "height": 1359,
+          "bytes": 93652,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/heritage/heritage-03-cover.webp": {
+      "originalBytes": 202118,
+      "width": 1200,
+      "height": 900,
+      "variants": [
+        {
+          "src": "assets/responsive/heritage/heritage-03-cover-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 29422,
+          "quality": 76
+        },
+        {
+          "src": "assets/responsive/heritage/heritage-03-cover-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 92780,
+          "quality": 76
+        }
+      ]
+    },
+    "assets/heritage/heritage-03-full.webp": {
+      "originalBytes": 302384,
+      "width": 1054,
+      "height": 1492,
+      "variants": [
+        {
+          "src": "assets/responsive/heritage/heritage-03-full-480.webp",
+          "width": 480,
+          "height": 679,
+          "bytes": 48594,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/heritage/heritage-03-full-960.webp",
+          "width": 960,
+          "height": 1359,
+          "bytes": 153488,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/heritage/heritage-04-full.webp": {
+      "originalBytes": 490844,
+      "width": 1054,
+      "height": 1492,
+      "variants": [
+        {
+          "src": "assets/responsive/heritage/heritage-04-full-480.webp",
+          "width": 480,
+          "height": 679,
+          "bytes": 57682,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/heritage/heritage-04-full-960.webp",
+          "width": 960,
+          "height": 1359,
+          "bytes": 179924,
+          "quality": 74
+        }
+      ]
+    },
+    "assets/huolu/huolu-01-full.webp": {
+      "originalBytes": 399014,
+      "width": 1448,
+      "height": 1086,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-01-full-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 45810,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-01-full-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 134272,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-02-full.webp": {
+      "originalBytes": 115896,
+      "width": 1492,
+      "height": 1054,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-02-full-480.webp",
+          "width": 480,
+          "height": 339,
+          "bytes": 16532,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-02-full-960.webp",
+          "width": 960,
+          "height": 678,
+          "bytes": 39608,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-03-full.webp": {
+      "originalBytes": 117576,
+      "width": 1492,
+      "height": 1054,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-03-full-480.webp",
+          "width": 480,
+          "height": 339,
+          "bytes": 14236,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-03-full-960.webp",
+          "width": 960,
+          "height": 678,
+          "bytes": 37458,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-04-full.webp": {
+      "originalBytes": 214686,
+      "width": 1492,
+      "height": 1054,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-04-full-480.webp",
+          "width": 480,
+          "height": 339,
+          "bytes": 21196,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-04-full-960.webp",
+          "width": 960,
+          "height": 678,
+          "bytes": 67712,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-05-full.webp": {
+      "originalBytes": 116216,
+      "width": 1448,
+      "height": 1086,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-05-full-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 13184,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-05-full-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 37454,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-06-full.webp": {
+      "originalBytes": 107542,
+      "width": 1448,
+      "height": 1086,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-06-full-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 13542,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-06-full-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 35960,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-07-full.webp": {
+      "originalBytes": 130118,
+      "width": 1491,
+      "height": 1055,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-07-full-480.webp",
+          "width": 480,
+          "height": 340,
+          "bytes": 19886,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-07-full-960.webp",
+          "width": 960,
+          "height": 679,
+          "bytes": 47240,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-08-full.webp": {
+      "originalBytes": 401752,
+      "width": 1491,
+      "height": 1055,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-08-full-480.webp",
+          "width": 480,
+          "height": 340,
+          "bytes": 31256,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-08-full-960.webp",
+          "width": 960,
+          "height": 679,
+          "bytes": 111752,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-09-full.webp": {
+      "originalBytes": 167388,
+      "width": 1491,
+      "height": 1055,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-09-full-480.webp",
+          "width": 480,
+          "height": 340,
+          "bytes": 18072,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-09-full-960.webp",
+          "width": 960,
+          "height": 679,
+          "bytes": 48752,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-10-full.webp": {
+      "originalBytes": 308268,
+      "width": 1492,
+      "height": 1054,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-10-full-480.webp",
+          "width": 480,
+          "height": 339,
+          "bytes": 33752,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-10-full-960.webp",
+          "width": 960,
+          "height": 678,
+          "bytes": 98650,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-11-full.webp": {
+      "originalBytes": 135014,
+      "width": 1492,
+      "height": 1054,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-11-full-480.webp",
+          "width": 480,
+          "height": 339,
+          "bytes": 16086,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-11-full-960.webp",
+          "width": 960,
+          "height": 678,
+          "bytes": 39936,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-12-full.webp": {
+      "originalBytes": 114798,
+      "width": 1492,
+      "height": 1054,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-12-full-480.webp",
+          "width": 480,
+          "height": 339,
+          "bytes": 13544,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-12-full-960.webp",
+          "width": 960,
+          "height": 678,
+          "bytes": 35850,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-13-full.webp": {
+      "originalBytes": 204334,
+      "width": 1491,
+      "height": 1055,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-13-full-480.webp",
+          "width": 480,
+          "height": 340,
+          "bytes": 20216,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-13-full-960.webp",
+          "width": 960,
+          "height": 679,
+          "bytes": 65306,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-14-full.webp": {
+      "originalBytes": 135498,
+      "width": 1492,
+      "height": 1054,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-14-full-480.webp",
+          "width": 480,
+          "height": 339,
+          "bytes": 12866,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-14-full-960.webp",
+          "width": 960,
+          "height": 678,
+          "bytes": 39440,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-15-full.webp": {
+      "originalBytes": 61784,
+      "width": 1492,
+      "height": 1054,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-15-full-480.webp",
+          "width": 480,
+          "height": 339,
+          "bytes": 10096,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-15-full-960.webp",
+          "width": 960,
+          "height": 678,
+          "bytes": 24090,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-16-full.webp": {
+      "originalBytes": 66236,
+      "width": 1448,
+      "height": 1086,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-16-full-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 11344,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-16-full-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 26818,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-17-full.webp": {
+      "originalBytes": 59292,
+      "width": 1491,
+      "height": 1055,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-17-full-480.webp",
+          "width": 480,
+          "height": 340,
+          "bytes": 7428,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-17-full-960.webp",
+          "width": 960,
+          "height": 679,
+          "bytes": 19948,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-18-full.webp": {
+      "originalBytes": 295130,
+      "width": 1492,
+      "height": 1054,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-18-full-480.webp",
+          "width": 480,
+          "height": 339,
+          "bytes": 36772,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-18-full-960.webp",
+          "width": 960,
+          "height": 678,
+          "bytes": 100486,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-19-full.webp": {
+      "originalBytes": 318778,
+      "width": 1055,
+      "height": 1491,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-19-full-480.webp",
+          "width": 480,
+          "height": 678,
+          "bytes": 65830,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-19-full-960.webp",
+          "width": 960,
+          "height": 1357,
+          "bytes": 178136,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-20-full.webp": {
+      "originalBytes": 348348,
+      "width": 1055,
+      "height": 1491,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-20-full-480.webp",
+          "width": 480,
+          "height": 678,
+          "bytes": 71208,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-20-full-960.webp",
+          "width": 960,
+          "height": 1357,
+          "bytes": 183200,
+          "quality": 76
+        }
+      ]
+    },
+    "assets/huolu/huolu-21-full.webp": {
+      "originalBytes": 358444,
+      "width": 1055,
+      "height": 1491,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-21-full-480.webp",
+          "width": 480,
+          "height": 678,
+          "bytes": 73208,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-21-full-960.webp",
+          "width": 960,
+          "height": 1357,
+          "bytes": 181348,
+          "quality": 74
+        }
+      ]
+    },
+    "assets/huolu/huolu-22-full.webp": {
+      "originalBytes": 282782,
+      "width": 1055,
+      "height": 1491,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-22-full-480.webp",
+          "width": 480,
+          "height": 678,
+          "bytes": 57384,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-22-full-960.webp",
+          "width": 960,
+          "height": 1357,
+          "bytes": 154294,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-23-full.webp": {
+      "originalBytes": 92680,
+      "width": 1055,
+      "height": 1491,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-23-full-480.webp",
+          "width": 480,
+          "height": 678,
+          "bytes": 18290,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-23-full-960.webp",
+          "width": 960,
+          "height": 1357,
+          "bytes": 42422,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-24-full.webp": {
+      "originalBytes": 493800,
+      "width": 1055,
+      "height": 1491,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-24-full-480.webp",
+          "width": 480,
+          "height": 678,
+          "bytes": 78006,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-24-full-960.webp",
+          "width": 960,
+          "height": 1357,
+          "bytes": 213508,
+          "quality": 72
+        }
+      ]
+    },
+    "assets/huolu/huolu-25-full.webp": {
+      "originalBytes": 316440,
+      "width": 1055,
+      "height": 1491,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-25-full-480.webp",
+          "width": 480,
+          "height": 678,
+          "bytes": 39488,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-25-full-960.webp",
+          "width": 960,
+          "height": 1357,
+          "bytes": 127208,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-26-full.webp": {
+      "originalBytes": 198148,
+      "width": 1055,
+      "height": 1491,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-26-full-480.webp",
+          "width": 480,
+          "height": 678,
+          "bytes": 32534,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-26-full-960.webp",
+          "width": 960,
+          "height": 1357,
+          "bytes": 89330,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-27-full.webp": {
+      "originalBytes": 342032,
+      "width": 1055,
+      "height": 1491,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-27-full-480.webp",
+          "width": 480,
+          "height": 678,
+          "bytes": 45914,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-27-full-960.webp",
+          "width": 960,
+          "height": 1357,
+          "bytes": 151396,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-28-full.webp": {
+      "originalBytes": 210448,
+      "width": 1055,
+      "height": 1491,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-28-full-480.webp",
+          "width": 480,
+          "height": 678,
+          "bytes": 27796,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-28-full-960.webp",
+          "width": 960,
+          "height": 1357,
+          "bytes": 88480,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-29-full.webp": {
+      "originalBytes": 232068,
+      "width": 1055,
+      "height": 1491,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-29-full-480.webp",
+          "width": 480,
+          "height": 678,
+          "bytes": 29526,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-29-full-960.webp",
+          "width": 960,
+          "height": 1357,
+          "bytes": 97318,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-30-full.webp": {
+      "originalBytes": 535770,
+      "width": 1055,
+      "height": 1491,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-30-full-480.webp",
+          "width": 480,
+          "height": 678,
+          "bytes": 72586,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-30-full-960.webp",
+          "width": 960,
+          "height": 1357,
+          "bytes": 219972,
+          "quality": 72
+        }
+      ]
+    },
+    "assets/huolu/huolu-31-full.webp": {
+      "originalBytes": 309596,
+      "width": 1055,
+      "height": 1491,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-31-full-480.webp",
+          "width": 480,
+          "height": 678,
+          "bytes": 39356,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-31-full-960.webp",
+          "width": 960,
+          "height": 1357,
+          "bytes": 128082,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-32-full.webp": {
+      "originalBytes": 228306,
+      "width": 1055,
+      "height": 1491,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-32-full-480.webp",
+          "width": 480,
+          "height": 678,
+          "bytes": 20566,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-32-full-960.webp",
+          "width": 960,
+          "height": 1357,
+          "bytes": 80542,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-33-full.webp": {
+      "originalBytes": 408936,
+      "width": 1055,
+      "height": 1491,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-33-full-480.webp",
+          "width": 480,
+          "height": 678,
+          "bytes": 53970,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-33-full-960.webp",
+          "width": 960,
+          "height": 1357,
+          "bytes": 180414,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-34-full.webp": {
+      "originalBytes": 130174,
+      "width": 1055,
+      "height": 1491,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-34-full-480.webp",
+          "width": 480,
+          "height": 678,
+          "bytes": 21214,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-34-full-960.webp",
+          "width": 960,
+          "height": 1357,
+          "bytes": 61240,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-35-full.webp": {
+      "originalBytes": 304008,
+      "width": 1055,
+      "height": 1491,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-35-full-480.webp",
+          "width": 480,
+          "height": 678,
+          "bytes": 48834,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-35-full-960.webp",
+          "width": 960,
+          "height": 1357,
+          "bytes": 150206,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-36-full.webp": {
+      "originalBytes": 117180,
+      "width": 1055,
+      "height": 1491,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-36-full-480.webp",
+          "width": 480,
+          "height": 678,
+          "bytes": 21722,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-36-full-960.webp",
+          "width": 960,
+          "height": 1357,
+          "bytes": 57168,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-37-full.webp": {
+      "originalBytes": 336876,
+      "width": 1055,
+      "height": 1491,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-37-full-480.webp",
+          "width": 480,
+          "height": 678,
+          "bytes": 39394,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-37-full-960.webp",
+          "width": 960,
+          "height": 1357,
+          "bytes": 134882,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-38-full.webp": {
+      "originalBytes": 243938,
+      "width": 1055,
+      "height": 1491,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-38-full-480.webp",
+          "width": 480,
+          "height": 678,
+          "bytes": 45658,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-38-full-960.webp",
+          "width": 960,
+          "height": 1357,
+          "bytes": 122376,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-39-full.webp": {
+      "originalBytes": 382988,
+      "width": 1055,
+      "height": 1491,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-39-full-480.webp",
+          "width": 480,
+          "height": 678,
+          "bytes": 45398,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-39-full-960.webp",
+          "width": 960,
+          "height": 1357,
+          "bytes": 163380,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-40-full.webp": {
+      "originalBytes": 327578,
+      "width": 1600,
+      "height": 1131,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-40-full-480.webp",
+          "width": 480,
+          "height": 339,
+          "bytes": 32256,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-40-full-960.webp",
+          "width": 960,
+          "height": 679,
+          "bytes": 97176,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-41-full.webp": {
+      "originalBytes": 67880,
+      "width": 1600,
+      "height": 1131,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-41-full-480.webp",
+          "width": 480,
+          "height": 339,
+          "bytes": 10632,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-41-full-960.webp",
+          "width": 960,
+          "height": 679,
+          "bytes": 24830,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-42-full.webp": {
+      "originalBytes": 65082,
+      "width": 1600,
+      "height": 1131,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-42-full-480.webp",
+          "width": 480,
+          "height": 339,
+          "bytes": 7802,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-42-full-960.webp",
+          "width": 960,
+          "height": 679,
+          "bytes": 20640,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-43-full.webp": {
+      "originalBytes": 94668,
+      "width": 1600,
+      "height": 1131,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-43-full-480.webp",
+          "width": 480,
+          "height": 339,
+          "bytes": 10372,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-43-full-960.webp",
+          "width": 960,
+          "height": 679,
+          "bytes": 30014,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-44-full.webp": {
+      "originalBytes": 76862,
+      "width": 1600,
+      "height": 1131,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-44-full-480.webp",
+          "width": 480,
+          "height": 339,
+          "bytes": 8196,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-44-full-960.webp",
+          "width": 960,
+          "height": 679,
+          "bytes": 23898,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-45-full.webp": {
+      "originalBytes": 128146,
+      "width": 1600,
+      "height": 1131,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-45-full-480.webp",
+          "width": 480,
+          "height": 339,
+          "bytes": 15362,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-45-full-960.webp",
+          "width": 960,
+          "height": 679,
+          "bytes": 40298,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-46-full.webp": {
+      "originalBytes": 118266,
+      "width": 1600,
+      "height": 1131,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-46-full-480.webp",
+          "width": 480,
+          "height": 339,
+          "bytes": 11192,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-46-full-960.webp",
+          "width": 960,
+          "height": 679,
+          "bytes": 31700,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-47-full.webp": {
+      "originalBytes": 190660,
+      "width": 1600,
+      "height": 1131,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-47-full-480.webp",
+          "width": 480,
+          "height": 339,
+          "bytes": 16590,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-47-full-960.webp",
+          "width": 960,
+          "height": 679,
+          "bytes": 52602,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-48-full.webp": {
+      "originalBytes": 146050,
+      "width": 1600,
+      "height": 1131,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-48-full-480.webp",
+          "width": 480,
+          "height": 339,
+          "bytes": 13920,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-48-full-960.webp",
+          "width": 960,
+          "height": 679,
+          "bytes": 40582,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-49-full.webp": {
+      "originalBytes": 158084,
+      "width": 1600,
+      "height": 1131,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-49-full-480.webp",
+          "width": 480,
+          "height": 339,
+          "bytes": 15328,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-49-full-960.webp",
+          "width": 960,
+          "height": 679,
+          "bytes": 42576,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-50-full.webp": {
+      "originalBytes": 148564,
+      "width": 1600,
+      "height": 1131,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-50-full-480.webp",
+          "width": 480,
+          "height": 339,
+          "bytes": 12858,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-50-full-960.webp",
+          "width": 960,
+          "height": 679,
+          "bytes": 37350,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-51-full.webp": {
+      "originalBytes": 189540,
+      "width": 1600,
+      "height": 1131,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-51-full-480.webp",
+          "width": 480,
+          "height": 339,
+          "bytes": 16458,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-51-full-960.webp",
+          "width": 960,
+          "height": 679,
+          "bytes": 52258,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-52-full.webp": {
+      "originalBytes": 182346,
+      "width": 1600,
+      "height": 1131,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-52-full-480.webp",
+          "width": 480,
+          "height": 339,
+          "bytes": 17048,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-52-full-960.webp",
+          "width": 960,
+          "height": 679,
+          "bytes": 53878,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-53-full.webp": {
+      "originalBytes": 219272,
+      "width": 1600,
+      "height": 1131,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-53-full-480.webp",
+          "width": 480,
+          "height": 339,
+          "bytes": 17240,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-53-full-960.webp",
+          "width": 960,
+          "height": 679,
+          "bytes": 49122,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-54-full.webp": {
+      "originalBytes": 394938,
+      "width": 1600,
+      "height": 1131,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-54-full-480.webp",
+          "width": 480,
+          "height": 339,
+          "bytes": 43776,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-54-full-960.webp",
+          "width": 960,
+          "height": 679,
+          "bytes": 127022,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/huolu/huolu-55-full.webp": {
+      "originalBytes": 581438,
+      "width": 1600,
+      "height": 2263,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-55-full-480.webp",
+          "width": 480,
+          "height": 679,
+          "bytes": 73344,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-55-full-960.webp",
+          "width": 960,
+          "height": 1358,
+          "bytes": 177498,
+          "quality": 74
+        }
+      ]
+    },
+    "assets/huolu/huolu-56-full.webp": {
+      "originalBytes": 684086,
+      "width": 1600,
+      "height": 2263,
+      "variants": [
+        {
+          "src": "assets/responsive/huolu/huolu-56-full-480.webp",
+          "width": 480,
+          "height": 679,
+          "bytes": 69796,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/huolu/huolu-56-full-960.webp",
+          "width": 960,
+          "height": 1358,
+          "bytes": 183860,
+          "quality": 74
+        }
+      ]
+    },
+    "assets/lilac/lilac-01-full.webp": {
+      "originalBytes": 93086,
+      "width": 1672,
+      "height": 941,
+      "variants": [
+        {
+          "src": "assets/responsive/lilac/lilac-01-full-480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 6214,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/lilac/lilac-01-full-960.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 14942,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/lilac/lilac-02-full.webp": {
+      "originalBytes": 63380,
+      "width": 1536,
+      "height": 1024,
+      "variants": [
+        {
+          "src": "assets/responsive/lilac/lilac-02-full-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 8408,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/lilac/lilac-02-full-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 20444,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/lilac/lilac-03-full.webp": {
+      "originalBytes": 182954,
+      "width": 1536,
+      "height": 1024,
+      "variants": [
+        {
+          "src": "assets/responsive/lilac/lilac-03-full-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 18208,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/lilac/lilac-03-full-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 53084,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/lilac/lilac-04-full.webp": {
+      "originalBytes": 76964,
+      "width": 1536,
+      "height": 1024,
+      "variants": [
+        {
+          "src": "assets/responsive/lilac/lilac-04-full-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 9180,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/lilac/lilac-04-full-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 25172,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/lilac/lilac-05-full.webp": {
+      "originalBytes": 144758,
+      "width": 1536,
+      "height": 1024,
+      "variants": [
+        {
+          "src": "assets/responsive/lilac/lilac-05-full-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 12878,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/lilac/lilac-05-full-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 42242,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/lilac/lilac-06-full.webp": {
+      "originalBytes": 100972,
+      "width": 1536,
+      "height": 1024,
+      "variants": [
+        {
+          "src": "assets/responsive/lilac/lilac-06-full-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 11156,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/lilac/lilac-06-full-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 33134,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/lilac/lilac-07-full.webp": {
+      "originalBytes": 111874,
+      "width": 1672,
+      "height": 941,
+      "variants": [
+        {
+          "src": "assets/responsive/lilac/lilac-07-full-480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 12038,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/lilac/lilac-07-full-960.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 31426,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/nice/nice-01-cover.webp": {
+      "originalBytes": 254398,
+      "width": 1200,
+      "height": 900,
+      "variants": [
+        {
+          "src": "assets/responsive/nice/nice-01-cover-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 35334,
+          "quality": 76
+        },
+        {
+          "src": "assets/responsive/nice/nice-01-cover-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 109744,
+          "quality": 76
+        }
+      ]
+    },
+    "assets/nice/nice-01-full.webp": {
+      "originalBytes": 1021398,
+      "width": 2000,
+      "height": 2828,
+      "variants": [
+        {
+          "src": "assets/responsive/nice/nice-01-full-480.webp",
+          "width": 480,
+          "height": 679,
+          "bytes": 79116,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/nice/nice-01-full-960.webp",
+          "width": 960,
+          "height": 1357,
+          "bytes": 211010,
+          "quality": 72
+        }
+      ]
+    },
+    "assets/nice/nice-02-full.webp": {
+      "originalBytes": 1013124,
+      "width": 2000,
+      "height": 2828,
+      "variants": [
+        {
+          "src": "assets/responsive/nice/nice-02-full-480.webp",
+          "width": 480,
+          "height": 679,
+          "bytes": 75318,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/nice/nice-02-full-960.webp",
+          "width": 960,
+          "height": 1357,
+          "bytes": 201624,
+          "quality": 72
+        }
+      ]
+    },
+    "assets/nice/nice-03-full.webp": {
+      "originalBytes": 1012046,
+      "width": 2000,
+      "height": 2828,
+      "variants": [
+        {
+          "src": "assets/responsive/nice/nice-03-full-480.webp",
+          "width": 480,
+          "height": 679,
+          "bytes": 71710,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/nice/nice-03-full-960.webp",
+          "width": 960,
+          "height": 1357,
+          "bytes": 192468,
+          "quality": 72
+        }
+      ]
+    },
+    "assets/persimmon/persimmon-01-full.webp": {
+      "originalBytes": 683344,
+      "width": 2000,
+      "height": 2828,
+      "variants": [
+        {
+          "src": "assets/responsive/persimmon/persimmon-01-full-480.webp",
+          "width": 480,
+          "height": 679,
+          "bytes": 60962,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/persimmon/persimmon-01-full-960.webp",
+          "width": 960,
+          "height": 1357,
+          "bytes": 164456,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/persimmon/persimmon-02-full.webp": {
+      "originalBytes": 766336,
+      "width": 2000,
+      "height": 2828,
+      "variants": [
+        {
+          "src": "assets/responsive/persimmon/persimmon-02-full-480.webp",
+          "width": 480,
+          "height": 679,
+          "bytes": 69406,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/persimmon/persimmon-02-full-960.webp",
+          "width": 960,
+          "height": 1357,
+          "bytes": 180732,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/persimmon/persimmon-03-full.webp": {
+      "originalBytes": 649732,
+      "width": 2000,
+      "height": 2828,
+      "variants": [
+        {
+          "src": "assets/responsive/persimmon/persimmon-03-full-480.webp",
+          "width": 480,
+          "height": 679,
+          "bytes": 60606,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/persimmon/persimmon-03-full-960.webp",
+          "width": 960,
+          "height": 1357,
+          "bytes": 153742,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/persimmon/persimmon-04-full.webp": {
+      "originalBytes": 902396,
+      "width": 2000,
+      "height": 2828,
+      "variants": [
+        {
+          "src": "assets/responsive/persimmon/persimmon-04-full-480.webp",
+          "width": 480,
+          "height": 679,
+          "bytes": 73602,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/persimmon/persimmon-04-full-960.webp",
+          "width": 960,
+          "height": 1357,
+          "bytes": 182770,
+          "quality": 74
+        }
+      ]
+    },
+    "assets/persimmon/persimmon-hero-cover.webp": {
+      "originalBytes": 137972,
+      "width": 1200,
+      "height": 900,
+      "variants": [
+        {
+          "src": "assets/responsive/persimmon/persimmon-hero-cover-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 25448,
+          "quality": 76
+        },
+        {
+          "src": "assets/responsive/persimmon/persimmon-hero-cover-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 56050,
+          "quality": 76
+        }
+      ]
+    },
+    "assets/portrait.webp": {
+      "originalBytes": 101054,
+      "width": 1000,
+      "height": 1333,
+      "variants": [
+        {
+          "src": "assets/responsive/portrait-480.webp",
+          "width": 480,
+          "height": 640,
+          "bytes": 14580,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/portrait-960.webp",
+          "width": 960,
+          "height": 1280,
+          "bytes": 40320,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/qingjiang/qingjiang-01-full.webp": {
+      "originalBytes": 418320,
+      "width": 1600,
+      "height": 2263,
+      "variants": [
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-01-full-480.webp",
+          "width": 480,
+          "height": 679,
+          "bytes": 49084,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-01-full-960.webp",
+          "width": 960,
+          "height": 1358,
+          "bytes": 135610,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/qingjiang/qingjiang-02-full.webp": {
+      "originalBytes": 468360,
+      "width": 1600,
+      "height": 2263,
+      "variants": [
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-02-full-480.webp",
+          "width": 480,
+          "height": 679,
+          "bytes": 52868,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-02-full-960.webp",
+          "width": 960,
+          "height": 1358,
+          "bytes": 145426,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/qingjiang/qingjiang-03-full.webp": {
+      "originalBytes": 448436,
+      "width": 1600,
+      "height": 2263,
+      "variants": [
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-03-full-480.webp",
+          "width": 480,
+          "height": 679,
+          "bytes": 51298,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-03-full-960.webp",
+          "width": 960,
+          "height": 1358,
+          "bytes": 143006,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/qingjiang/qingjiang-04-full.webp": {
+      "originalBytes": 521352,
+      "width": 1600,
+      "height": 2263,
+      "variants": [
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-04-full-480.webp",
+          "width": 480,
+          "height": 679,
+          "bytes": 56950,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-04-full-960.webp",
+          "width": 960,
+          "height": 1358,
+          "bytes": 161768,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/qingjiang/qingjiang-05-full.webp": {
+      "originalBytes": 243016,
+      "width": 1491,
+      "height": 1055,
+      "variants": [
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-05-full-480.webp",
+          "width": 480,
+          "height": 340,
+          "bytes": 27380,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-05-full-960.webp",
+          "width": 960,
+          "height": 679,
+          "bytes": 75994,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/qingjiang/qingjiang-06-full.webp": {
+      "originalBytes": 167120,
+      "width": 1491,
+      "height": 1055,
+      "variants": [
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-06-full-480.webp",
+          "width": 480,
+          "height": 340,
+          "bytes": 15180,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-06-full-960.webp",
+          "width": 960,
+          "height": 679,
+          "bytes": 43168,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/qingjiang/qingjiang-07-full.webp": {
+      "originalBytes": 281972,
+      "width": 1491,
+      "height": 1055,
+      "variants": [
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-07-full-480.webp",
+          "width": 480,
+          "height": 340,
+          "bytes": 27874,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-07-full-960.webp",
+          "width": 960,
+          "height": 679,
+          "bytes": 85178,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/qingjiang/qingjiang-08-full.webp": {
+      "originalBytes": 156760,
+      "width": 1491,
+      "height": 1055,
+      "variants": [
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-08-full-480.webp",
+          "width": 480,
+          "height": 340,
+          "bytes": 20042,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-08-full-960.webp",
+          "width": 960,
+          "height": 679,
+          "bytes": 53174,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/qingjiang/qingjiang-09-full.webp": {
+      "originalBytes": 101014,
+      "width": 1492,
+      "height": 1054,
+      "variants": [
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-09-full-480.webp",
+          "width": 480,
+          "height": 339,
+          "bytes": 11038,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-09-full-960.webp",
+          "width": 960,
+          "height": 678,
+          "bytes": 32098,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/qingjiang/qingjiang-10-full.webp": {
+      "originalBytes": 128310,
+      "width": 1491,
+      "height": 1055,
+      "variants": [
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-10-full-480.webp",
+          "width": 480,
+          "height": 340,
+          "bytes": 11776,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-10-full-960.webp",
+          "width": 960,
+          "height": 679,
+          "bytes": 32940,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/qingjiang/qingjiang-11-full.webp": {
+      "originalBytes": 94498,
+      "width": 1491,
+      "height": 1055,
+      "variants": [
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-11-full-480.webp",
+          "width": 480,
+          "height": 340,
+          "bytes": 12680,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-11-full-960.webp",
+          "width": 960,
+          "height": 679,
+          "bytes": 32450,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/qingjiang/qingjiang-12-full.webp": {
+      "originalBytes": 111472,
+      "width": 1492,
+      "height": 1054,
+      "variants": [
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-12-full-480.webp",
+          "width": 480,
+          "height": 339,
+          "bytes": 11216,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-12-full-960.webp",
+          "width": 960,
+          "height": 678,
+          "bytes": 32872,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/qingjiang/qingjiang-13-full.webp": {
+      "originalBytes": 109976,
+      "width": 1491,
+      "height": 1055,
+      "variants": [
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-13-full-480.webp",
+          "width": 480,
+          "height": 340,
+          "bytes": 11308,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-13-full-960.webp",
+          "width": 960,
+          "height": 679,
+          "bytes": 31796,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/qingjiang/qingjiang-14-full.webp": {
+      "originalBytes": 171400,
+      "width": 1491,
+      "height": 1055,
+      "variants": [
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-14-full-480.webp",
+          "width": 480,
+          "height": 340,
+          "bytes": 19308,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-14-full-960.webp",
+          "width": 960,
+          "height": 679,
+          "bytes": 53754,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/qingjiang/qingjiang-15-full.webp": {
+      "originalBytes": 97242,
+      "width": 1492,
+      "height": 1054,
+      "variants": [
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-15-full-480.webp",
+          "width": 480,
+          "height": 339,
+          "bytes": 13928,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-15-full-960.webp",
+          "width": 960,
+          "height": 678,
+          "bytes": 37028,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/qingjiang/qingjiang-16-full.webp": {
+      "originalBytes": 117194,
+      "width": 1491,
+      "height": 1055,
+      "variants": [
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-16-full-480.webp",
+          "width": 480,
+          "height": 340,
+          "bytes": 12826,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-16-full-960.webp",
+          "width": 960,
+          "height": 679,
+          "bytes": 37390,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/qingjiang/qingjiang-17-full.webp": {
+      "originalBytes": 109268,
+      "width": 1491,
+      "height": 1055,
+      "variants": [
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-17-full-480.webp",
+          "width": 480,
+          "height": 340,
+          "bytes": 12070,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-17-full-960.webp",
+          "width": 960,
+          "height": 679,
+          "bytes": 33584,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/qingjiang/qingjiang-18-full.webp": {
+      "originalBytes": 28998,
+      "width": 1492,
+      "height": 1054,
+      "variants": [
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-18-full-480.webp",
+          "width": 480,
+          "height": 339,
+          "bytes": 4556,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-18-full-960.webp",
+          "width": 960,
+          "height": 678,
+          "bytes": 11924,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/qingjiang/qingjiang-19-full.webp": {
+      "originalBytes": 190902,
+      "width": 1491,
+      "height": 1055,
+      "variants": [
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-19-full-480.webp",
+          "width": 480,
+          "height": 340,
+          "bytes": 29688,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-19-full-960.webp",
+          "width": 960,
+          "height": 679,
+          "bytes": 76052,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/qingjiang/qingjiang-20-full.webp": {
+      "originalBytes": 131698,
+      "width": 1491,
+      "height": 1055,
+      "variants": [
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-20-full-480.webp",
+          "width": 480,
+          "height": 340,
+          "bytes": 16352,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-20-full-960.webp",
+          "width": 960,
+          "height": 679,
+          "bytes": 48530,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/qingjiang/qingjiang-21-full.webp": {
+      "originalBytes": 255406,
+      "width": 1491,
+      "height": 1055,
+      "variants": [
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-21-full-480.webp",
+          "width": 480,
+          "height": 340,
+          "bytes": 24644,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-21-full-960.webp",
+          "width": 960,
+          "height": 679,
+          "bytes": 69960,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/qingjiang/qingjiang-22-full.webp": {
+      "originalBytes": 114740,
+      "width": 1491,
+      "height": 1055,
+      "variants": [
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-22-full-480.webp",
+          "width": 480,
+          "height": 340,
+          "bytes": 9952,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-22-full-960.webp",
+          "width": 960,
+          "height": 679,
+          "bytes": 32938,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/qingjiang/qingjiang-23-full.webp": {
+      "originalBytes": 136918,
+      "width": 1491,
+      "height": 1055,
+      "variants": [
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-23-full-480.webp",
+          "width": 480,
+          "height": 340,
+          "bytes": 17008,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-23-full-960.webp",
+          "width": 960,
+          "height": 679,
+          "bytes": 42750,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/qingjiang/qingjiang-24-full.webp": {
+      "originalBytes": 148586,
+      "width": 1491,
+      "height": 1055,
+      "variants": [
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-24-full-480.webp",
+          "width": 480,
+          "height": 340,
+          "bytes": 12092,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-24-full-960.webp",
+          "width": 960,
+          "height": 679,
+          "bytes": 36750,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/qingjiang/qingjiang-25-full.webp": {
+      "originalBytes": 226674,
+      "width": 1491,
+      "height": 1055,
+      "variants": [
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-25-full-480.webp",
+          "width": 480,
+          "height": 340,
+          "bytes": 26080,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-25-full-960.webp",
+          "width": 960,
+          "height": 679,
+          "bytes": 74276,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/qingjiang/qingjiang-26-full.webp": {
+      "originalBytes": 277734,
+      "width": 1492,
+      "height": 1054,
+      "variants": [
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-26-full-480.webp",
+          "width": 480,
+          "height": 339,
+          "bytes": 32918,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-26-full-960.webp",
+          "width": 960,
+          "height": 678,
+          "bytes": 91562,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/qingjiang/qingjiang-27-full.webp": {
+      "originalBytes": 230332,
+      "width": 1492,
+      "height": 1054,
+      "variants": [
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-27-full-480.webp",
+          "width": 480,
+          "height": 339,
+          "bytes": 28242,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-27-full-960.webp",
+          "width": 960,
+          "height": 678,
+          "bytes": 74306,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/qingjiang/qingjiang-28-full.webp": {
+      "originalBytes": 262938,
+      "width": 1491,
+      "height": 1055,
+      "variants": [
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-28-full-480.webp",
+          "width": 480,
+          "height": 340,
+          "bytes": 28568,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-28-full-960.webp",
+          "width": 960,
+          "height": 679,
+          "bytes": 82564,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/qingjiang/qingjiang-29-full.webp": {
+      "originalBytes": 147198,
+      "width": 1491,
+      "height": 1055,
+      "variants": [
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-29-full-480.webp",
+          "width": 480,
+          "height": 340,
+          "bytes": 16260,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-29-full-960.webp",
+          "width": 960,
+          "height": 679,
+          "bytes": 45596,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/qingjiang/qingjiang-30-full.webp": {
+      "originalBytes": 458168,
+      "width": 1491,
+      "height": 1055,
+      "variants": [
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-30-full-480.webp",
+          "width": 480,
+          "height": 340,
+          "bytes": 43674,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-30-full-960.webp",
+          "width": 960,
+          "height": 679,
+          "bytes": 146712,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/qingjiang/qingjiang-31-full.webp": {
+      "originalBytes": 251918,
+      "width": 1491,
+      "height": 1055,
+      "variants": [
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-31-full-480.webp",
+          "width": 480,
+          "height": 340,
+          "bytes": 28306,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-31-full-960.webp",
+          "width": 960,
+          "height": 679,
+          "bytes": 77462,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/qingjiang/qingjiang-32-full.webp": {
+      "originalBytes": 133304,
+      "width": 1491,
+      "height": 1055,
+      "variants": [
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-32-full-480.webp",
+          "width": 480,
+          "height": 340,
+          "bytes": 11892,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/qingjiang/qingjiang-32-full-960.webp",
+          "width": 960,
+          "height": 679,
+          "bytes": 31266,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/sanfu/sanfu-01-full.webp": {
+      "originalBytes": 120346,
+      "width": 1054,
+      "height": 1492,
+      "variants": [
+        {
+          "src": "assets/responsive/sanfu/sanfu-01-full-480.webp",
+          "width": 480,
+          "height": 679,
+          "bytes": 27664,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/sanfu/sanfu-01-full-960.webp",
+          "width": 960,
+          "height": 1359,
+          "bytes": 59044,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/sanfu/sanfu-02-full.webp": {
+      "originalBytes": 399692,
+      "width": 1054,
+      "height": 1492,
+      "variants": [
+        {
+          "src": "assets/responsive/sanfu/sanfu-02-full-480.webp",
+          "width": 480,
+          "height": 679,
+          "bytes": 57298,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/sanfu/sanfu-02-full-960.webp",
+          "width": 960,
+          "height": 1359,
+          "bytes": 176018,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/sanfu/sanfu-03-cover.webp": {
+      "originalBytes": 130838,
+      "width": 1200,
+      "height": 900,
+      "variants": [
+        {
+          "src": "assets/responsive/sanfu/sanfu-03-cover-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 24402,
+          "quality": 76
+        },
+        {
+          "src": "assets/responsive/sanfu/sanfu-03-cover-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 58608,
+          "quality": 76
+        }
+      ]
+    },
+    "assets/sanfu/sanfu-03-full.webp": {
+      "originalBytes": 242890,
+      "width": 1055,
+      "height": 1491,
+      "variants": [
+        {
+          "src": "assets/responsive/sanfu/sanfu-03-full-480.webp",
+          "width": 480,
+          "height": 678,
+          "bytes": 45990,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/sanfu/sanfu-03-full-960.webp",
+          "width": 960,
+          "height": 1357,
+          "bytes": 114236,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/sanfu/sanfu-04-full.webp": {
+      "originalBytes": 192094,
+      "width": 1054,
+      "height": 1492,
+      "variants": [
+        {
+          "src": "assets/responsive/sanfu/sanfu-04-full-480.webp",
+          "width": 480,
+          "height": 679,
+          "bytes": 33666,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/sanfu/sanfu-04-full-960.webp",
+          "width": 960,
+          "height": 1359,
+          "bytes": 90666,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/videos/video-01-poster.webp": {
+      "originalBytes": 116726,
+      "width": 1280,
+      "height": 726,
+      "variants": [
+        {
+          "src": "assets/responsive/videos/video-01-poster-480.webp",
+          "width": 480,
+          "height": 272,
+          "bytes": 18486,
+          "quality": 76
+        },
+        {
+          "src": "assets/responsive/videos/video-01-poster-960.webp",
+          "width": 960,
+          "height": 544,
+          "bytes": 47542,
+          "quality": 76
+        }
+      ]
+    },
+    "assets/videos/video-02-poster.webp": {
+      "originalBytes": 93534,
+      "width": 1280,
+      "height": 726,
+      "variants": [
+        {
+          "src": "assets/responsive/videos/video-02-poster-480.webp",
+          "width": 480,
+          "height": 272,
+          "bytes": 17206,
+          "quality": 76
+        },
+        {
+          "src": "assets/responsive/videos/video-02-poster-960.webp",
+          "width": 960,
+          "height": 544,
+          "bytes": 42008,
+          "quality": 76
+        }
+      ]
+    },
+    "assets/videos/video-03-poster.webp": {
+      "originalBytes": 112242,
+      "width": 1280,
+      "height": 720,
+      "variants": [
+        {
+          "src": "assets/responsive/videos/video-03-poster-480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 19858,
+          "quality": 76
+        },
+        {
+          "src": "assets/responsive/videos/video-03-poster-960.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 47804,
+          "quality": 76
+        }
+      ]
+    },
+    "assets/videos/video-04-poster.webp": {
+      "originalBytes": 63196,
+      "width": 1280,
+      "height": 720,
+      "variants": [
+        {
+          "src": "assets/responsive/videos/video-04-poster-480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 9822,
+          "quality": 76
+        },
+        {
+          "src": "assets/responsive/videos/video-04-poster-960.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 25948,
+          "quality": 76
+        }
+      ]
+    },
+    "assets/videos/yuedong-poster.webp": {
+      "originalBytes": 104738,
+      "width": 1280,
+      "height": 720,
+      "variants": [
+        {
+          "src": "assets/responsive/videos/yuedong-poster-480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 17918,
+          "quality": 76
+        },
+        {
+          "src": "assets/responsive/videos/yuedong-poster-960.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 45980,
+          "quality": 76
+        }
+      ]
+    },
+    "assets/wahaha/wahaha-01-cover.webp": {
+      "originalBytes": 36254,
+      "width": 1200,
+      "height": 900,
+      "variants": [
+        {
+          "src": "assets/responsive/wahaha/wahaha-01-cover-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 9638,
+          "quality": 76
+        },
+        {
+          "src": "assets/responsive/wahaha/wahaha-01-cover-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 19248,
+          "quality": 76
+        }
+      ]
+    },
+    "assets/wahaha/wahaha-01-full.webp": {
+      "originalBytes": 150984,
+      "width": 2000,
+      "height": 2828,
+      "variants": [
+        {
+          "src": "assets/responsive/wahaha/wahaha-01-full-480.webp",
+          "width": 480,
+          "height": 679,
+          "bytes": 22276,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/wahaha/wahaha-01-full-960.webp",
+          "width": 960,
+          "height": 1357,
+          "bytes": 46634,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/wahaha/wahaha-02-full.webp": {
+      "originalBytes": 206614,
+      "width": 2000,
+      "height": 2828,
+      "variants": [
+        {
+          "src": "assets/responsive/wahaha/wahaha-02-full-480.webp",
+          "width": 480,
+          "height": 679,
+          "bytes": 29038,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/wahaha/wahaha-02-full-960.webp",
+          "width": 960,
+          "height": 1357,
+          "bytes": 62088,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/wahaha/wahaha-03-full.webp": {
+      "originalBytes": 156954,
+      "width": 2000,
+      "height": 2828,
+      "variants": [
+        {
+          "src": "assets/responsive/wahaha/wahaha-03-full-480.webp",
+          "width": 480,
+          "height": 679,
+          "bytes": 23054,
+          "quality": 78
+        },
+        {
+          "src": "assets/responsive/wahaha/wahaha-03-full-960.webp",
+          "width": 960,
+          "height": 1357,
+          "bytes": 48686,
+          "quality": 78
+        }
+      ]
+    },
+    "assets/works/works-01-full.webp": {
+      "originalBytes": 379138,
+      "width": 1600,
+      "height": 1067,
+      "variants": [
+        {
+          "src": "assets/responsive/works/works-01-full-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 23142,
+          "quality": 76
+        },
+        {
+          "src": "assets/responsive/works/works-01-full-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 81684,
+          "quality": 76
+        }
+      ]
+    },
+    "assets/works/works-02-full.webp": {
+      "originalBytes": 659954,
+      "width": 1600,
+      "height": 900,
+      "variants": [
+        {
+          "src": "assets/responsive/works/works-02-full-480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 41220,
+          "quality": 76
+        },
+        {
+          "src": "assets/responsive/works/works-02-full-960.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 165788,
+          "quality": 76
+        }
+      ]
+    },
+    "assets/works/works-03-full.webp": {
+      "originalBytes": 163810,
+      "width": 1600,
+      "height": 1067,
+      "variants": [
+        {
+          "src": "assets/responsive/works/works-03-full-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 14976,
+          "quality": 76
+        },
+        {
+          "src": "assets/responsive/works/works-03-full-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 44664,
+          "quality": 76
+        }
+      ]
+    },
+    "assets/works/works-04-full.webp": {
+      "originalBytes": 140942,
+      "width": 1600,
+      "height": 1067,
+      "variants": [
+        {
+          "src": "assets/responsive/works/works-04-full-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 12882,
+          "quality": 76
+        },
+        {
+          "src": "assets/responsive/works/works-04-full-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 38556,
+          "quality": 76
+        }
+      ]
+    },
+    "assets/works/works-05-full.webp": {
+      "originalBytes": 353072,
+      "width": 1600,
+      "height": 1067,
+      "variants": [
+        {
+          "src": "assets/responsive/works/works-05-full-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 21100,
+          "quality": 76
+        },
+        {
+          "src": "assets/responsive/works/works-05-full-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 75790,
+          "quality": 76
+        }
+      ]
+    },
+    "assets/works/works-06-full.webp": {
+      "originalBytes": 324180,
+      "width": 1600,
+      "height": 1067,
+      "variants": [
+        {
+          "src": "assets/responsive/works/works-06-full-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 20112,
+          "quality": 76
+        },
+        {
+          "src": "assets/responsive/works/works-06-full-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 70890,
+          "quality": 76
+        }
+      ]
+    },
+    "assets/works/works-07-full.webp": {
+      "originalBytes": 194896,
+      "width": 1600,
+      "height": 1067,
+      "variants": [
+        {
+          "src": "assets/responsive/works/works-07-full-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 17334,
+          "quality": 76
+        },
+        {
+          "src": "assets/responsive/works/works-07-full-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 52356,
+          "quality": 76
+        }
+      ]
+    },
+    "assets/works/works-08-full.webp": {
+      "originalBytes": 228618,
+      "width": 1600,
+      "height": 1067,
+      "variants": [
+        {
+          "src": "assets/responsive/works/works-08-full-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 18554,
+          "quality": 76
+        },
+        {
+          "src": "assets/responsive/works/works-08-full-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 60976,
+          "quality": 76
+        }
+      ]
+    }
+  }
+}

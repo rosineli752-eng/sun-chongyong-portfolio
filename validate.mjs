@@ -12,5 +12,12 @@ const crossroads=data.projects.find(p=>p.id==='crossroads'),beijing=data.project
 if(crossroads.images.length!==1||!crossroads.images[0].src.endsWith('works-02-full.webp'))throw Error('Crossroads source mismatch');
 if(beijing.images.length!==7||beijing.images.some(i=>i.src===crossroads.images[0].src))throw Error('Photography series overlap');
 if(new Set(data.projects.map(p=>p.id)).size!==data.projects.length)throw Error('Duplicate project identifiers');
-for(const name of ['app.js','data.js','sculpture.js'])new vm.Script(fs.readFileSync(path.join(root,name),'utf8'),{filename:name});
+for(const name of ['app.js','data.js','sculpture.js','image-manifest.js','video-manifest.js','sw.js'])new vm.Script(fs.readFileSync(path.join(root,name),'utf8'),{filename:name});
+vm.runInNewContext(fs.readFileSync(path.join(root,'image-manifest.js'),'utf8'),context);
+vm.runInNewContext(fs.readFileSync(path.join(root,'video-manifest.js'),'utf8'),context);
+for(const [original,m] of Object.entries(context.window.IMAGE_MANIFEST)){
+ if(!fs.existsSync(path.join(root,original))||!m.width||!m.height||m.variants.length!==2)throw Error('Invalid responsive image: '+original);
+ for(const v of m.variants){if(!fs.existsSync(path.join(root,v.src)))throw Error('Missing image variant: '+v.src);refs.add(v.src);}
+}
+for(const f of data.films){const preview=context.window.VIDEO_PREVIEWS[f.src];if(!preview||!fs.existsSync(path.join(root,preview)))throw Error('Missing streaming preview: '+f.id);if(fs.statSync(path.join(root,preview)).size>=fs.statSync(path.join(root,f.src)).size)throw Error('Preview should be smaller: '+f.id);refs.add(preview);}
 console.log(JSON.stringify({result:'passed',projects:data.projects.length,images:data.projects.reduce((n,p)=>n+p.images.length,0),films:data.films.length,awards:data.awards.length,verified_assets:refs.size}));
