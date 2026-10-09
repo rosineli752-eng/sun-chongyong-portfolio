@@ -12,7 +12,8 @@ const crossroads=data.projects.find(p=>p.id==='crossroads'),beijing=data.project
 if(crossroads.images.length!==1||!crossroads.images[0].src.endsWith('works-02-full.webp'))throw Error('Crossroads source mismatch');
 if(beijing.images.length!==7||beijing.images.some(i=>i.src===crossroads.images[0].src))throw Error('Photography series overlap');
 if(new Set(data.projects.map(p=>p.id)).size!==data.projects.length)throw Error('Duplicate project identifiers');
-for(const name of ['app.js','data.js','sculpture.js','image-manifest.js','video-manifest.js','sw.js'])new vm.Script(fs.readFileSync(path.join(root,name),'utf8'),{filename:name});
+for(const name of ['app.js','data.js','sculpture.js','portfolio.js','image-manifest.js','video-manifest.js','sw.js'])new vm.Script(fs.readFileSync(path.join(root,name),'utf8'),{filename:name});
+if(!fs.existsSync(path.join(root,'assets/sculpture-poster.webp')))throw Error('Missing immediate 3D preview');
 vm.runInNewContext(fs.readFileSync(path.join(root,'image-manifest.js'),'utf8'),context);
 vm.runInNewContext(fs.readFileSync(path.join(root,'video-manifest.js'),'utf8'),context);
 for(const [original,m] of Object.entries(context.window.IMAGE_MANIFEST)){

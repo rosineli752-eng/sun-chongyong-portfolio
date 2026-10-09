@@ -1,5 +1,5 @@
 // On-demand image cache; video byte-range requests pass through unchanged.
-const CACHE='scy-portfolio-images-20261009-v1',LIMIT=120;
+const CACHE='scy-portfolio-images-20261009-v2',LIMIT=120;
 async function saveImage(cache,request,response){
  const headers=new Headers(response.headers);headers.set('x-scy-cached-at',String(Date.now()));
  await cache.put(request,new Response(response.body,{status:response.status,statusText:response.statusText,headers}));

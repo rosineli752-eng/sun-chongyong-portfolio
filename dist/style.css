@@ -14,3 +14,11 @@ dialog{padding:0;border:0;margin:auto}dialog::backdrop{background:#191b20e6;back
 .film-content-wrap video{height:auto;aspect-ratio:854/480;object-fit:contain}
 .film-player-tools{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;min-height:60px;padding:12px 0;color:#a7adba;font-size:13px}
 .film-player-tools label{display:flex;align-items:center;gap:10px}.film-quality{background:#252a32;color:#f0f1f3;border:1px solid #596171;border-radius:25px;padding:8px 14px;font:inherit;cursor:pointer}.film-loading{font-size:12px}
+/* Preserve the full composition and original proportions of photographs. */
+.photo-duo img{width:100%;height:auto;aspect-ratio:auto;object-fit:contain}
+.project-card.crossroads .project-image,.project-card.works .project-image{aspect-ratio:auto}
+.project-card.crossroads .project-image>img,.project-card.works .project-image>img{width:100%;height:auto;object-fit:contain}
+.archive-row[data-category="photo"] img{height:auto;aspect-ratio:auto;object-fit:contain}
+.sculpture-poster{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;pointer-events:none}
+.sculpture-controls #activate-sculpture{width:auto;height:auto;background:transparent;border:1px solid #90959e;border-radius:24px;padding:6px 12px;font-size:12px;box-shadow:none;margin:0 0 12px}
+.sculpture-controls #activate-sculpture:disabled{cursor:wait;color:#737882}

@@ -27,12 +27,14 @@
 - `dist/style.css`：完整视觉样式和响应式布局
 - `dist/data.js`：项目、影片与证书数据，后续增加作品时直接编辑这里
 - `dist/app.js`：画廊、筛选、放映室与交互
+- `dist/portfolio.js`：合并压缩的首页入口，由构建脚本生成
+- `src/sculpture-loader.js`：首屏预览及三维场景的按需加载
 - `src/sculpture.js`：三维场景源码
 - `dist/sculpture.js`：已打包的三维代码，浏览时不需要安装依赖
 - `dist/assets/`：网页优化后的作品图片与影片
 - `dist/downloads/`：原始简历和 PDF 证书
 
-如需修改三维场景，安装 Node.js 后在此目录执行 `npm ci`、`npm run build`。`npm start` 可启动预览；`npm run check` 可检查资源完整性。
+修改交互、项目数据、资源清单或三维场景后，安装 Node.js 并执行 `npm ci`、`npm run build`。`npm start` 可启动预览；`npm run check` 可检查资源完整性。
 
 网站源文件使用 Three.js（MIT 许可），许可证保存在 `THIRD-PARTY-NOTICES.txt`。
 
@@ -58,7 +60,7 @@ git push origin main
 git subtree push --prefix dist origin gh-pages
 ```
 
-只有修改三维源码时才需要先执行 `npm ci` 和 `npm run build`。发布后等待 GitHub Pages 构建完成，原网址与二维码保持不变。关闭个人电脑不影响线上访问。
+修改交互、项目数据、资源清单或三维源码后，先执行 `npm ci` 和 `npm run build` 再检查发布。仅修改 HTML / CSS 时无需构建。发布后等待 GitHub Pages 构建完成，原网址与二维码保持不变。关闭个人电脑不影响线上访问。
 
 GitHub Free 支持公开仓库的 Pages 托管。网站的持续可用性取决于账号、仓库、平台规则及免费配额；无需购买服务器或域名。作品图片、影片、肖像和证书的权利仍属于相应作者及权利人。
 
@@ -73,3 +75,5 @@ GitHub Free 支持公开仓库的 Pages 托管。网站的持续可用性取决�
 - 原图、原版影片、彩色证件照和所有项目内容均保留。部署后原网址和二维码不变。
 
 `tools/generate-responsive-images.py` 和 `tools/prepare-video-previews.py` 可重新生成浏览版资源；报告保存在同目录。修改资源后需同步更新 `image-manifest.js` / `video-manifest.js`。仅静态页面内容有变时不需重新转码。
+
+摄影区、摄影分类卡片及摄影缩略图按原始宽高比展示完整画面。横版照片保持横版，不裁成竖长区域。首页通过一个合并入口启动，先显示约 22 KB 的真实三维预览，再按可见性加载交互场景；打开作品或影片时优先加载所选内容。手机降低三维细分和阴影负担，节省流量或减少动态时可手动开启三维体验。
